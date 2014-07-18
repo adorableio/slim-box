@@ -65,6 +65,9 @@ GEM
       ffi (>= 0.5.0)
     ref (1.0.5)
     sass (3.2.9)
+    slim (2.0.3)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -75,6 +78,7 @@ GEM
     sprockets-sass (1.0.2)
       sprockets (~> 2.0)
       tilt (~> 1.1)
+    temple (0.6.8)
     therubyracer (0.12.0)
       libv8 (~> 3.16.14.0)
       ref
@@ -93,4 +97,5 @@ DEPENDENCIES
   middleman-minify-html (~> 3.1.1)
   oj (~> 2.4.2)
   sass (~> 3.2)
+  slim
   therubyracer (~> 0.12.0)

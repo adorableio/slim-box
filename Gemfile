@@ -8,3 +8,4 @@ gem 'sass', '~> 3.2'
 gem 'therubyracer', '~> 0.12.0' # faster JS compiles
 gem 'oj', '~> 2.4.2' # faster JS compiles
 gem 'middleman-minify-html', '~> 3.1.1'
+gem "slim"

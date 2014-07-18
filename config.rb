@@ -2,6 +2,8 @@
 # Compass
 ###
 
+require 'slim'
+
 sprockets.append_path File.join "#{root}", "bower_components"
 sprockets.append_path File.join "#{root}", "bower_components/foundation/scss"
 
